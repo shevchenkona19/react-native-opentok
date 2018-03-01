@@ -63,6 +63,9 @@ public class RNOpenTokPublisherView extends RNOpenTokView implements PublisherKi
         session.publish(mPublisher);
 
         attachPublisherView();
+        if (mPublisher.getView() instanceof GLSurfaceView) {
+                    ((GLSurfaceView) mPublisher.getView()).setZOrderOnTop(true);
+        }
     }
 
     private void attachPublisherView() {
