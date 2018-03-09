@@ -8,6 +8,7 @@ import com.opentok.android.Session;
 import com.opentok.android.Stream;
 import com.opentok.android.Publisher;
 import com.opentok.android.PublisherKit;
+import android.opengl.GLSurfaceView;
 
 public class RNOpenTokPublisherView extends RNOpenTokView implements PublisherKit.PublisherListener {
     private Publisher mPublisher;
