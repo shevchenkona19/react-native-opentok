@@ -76,7 +76,7 @@ public class RNOpenTokPublisherView extends RNOpenTokView implements PublisherKi
 
     private void cleanUpPublisher() {
         removeView(mPublisher.getView());
-        mPublisher.destroy();
+        //mPublisher.destroy();
         mPublisher = null;
     }
 
